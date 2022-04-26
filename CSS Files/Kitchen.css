@@ -1,0 +1,20 @@
+body{
+    background-image: url(backgrounddesktop.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: left;
+    padding: 0 0 0 0;
+    margin: 352px 0px 0px 125px;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+}
+.b1{
+    font-size: 32px;
+    float: right;
+    padding: 17px 46px 6px 43px;
+    margin: 151px 1580px 0 0;
+    font-weight: bold;
+}

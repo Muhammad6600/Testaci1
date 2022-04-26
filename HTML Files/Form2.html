@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<style>
+	#student1{
+		border-width: 2px;
+	}
+	.myform{
+		background-color: lightsalmon;
+		border: 2px solid black;
+		width: max-content;
+		margin: ;
+		padding: 5px;
+	}
+
+</style>
+<body>
+	<h1 style="font-family: RNS Sanz SC;">Forms</h1>
+	
+	<form id="form1" class="myform" name="form1" onsubmit="return validate()">
+		<label for="fname" style="font-family: calibri;">First name:</label><br>
+  		<input type="text" id="fname" name="fname" value="Enter"><br>
+
+  		<label for="lname" style="font-family: calibri;">Last name:</label><br>
+  		<input type="text" id="lname" name="lname" value="Enter"><br>
+
+		<label for="email" style="font-family: calibri;">Email</label><br>
+		<input type="email" name="email" value="me@google.com" placeholder="Enter your Email"/>
+
+		<p style="font-family: calibri;">Which Option Best Describes Qasim</p>
+      <select id="dropdown" name="role">
+        <option value="-1" disabled selected value>Select an Option..</option>
+        <option value="1">Bad Boy</option>
+        <option value="2">Can't Tell</option>
+        <option value="3">Annoying</option>
+        <option value="4">Bad Programmer</option>
+      </select>
+
+  		<div class="students">
+		<input type="checkbox" id="student1" name="student1" value="Student">
+		<label for="student1" style="font-family: calibri;"><strong>Sir Atif</strong></label><br>
+		<input type="checkbox" id="student2" name="student2" value="Student">
+		<label for="student2" style="font-family: calibri;">Muhammad Gilman</label><br>
+		<input type="checkbox" id="student3" name="student3" value="Student">
+		<label for="student3" style="font-family: calibri;">Umer Jalil</label><br>
+		<input type="checkbox" id="student4" name="student4" value="Student">
+		<label for="student4" style="font-family: calibri;">Khan Sahab</label><br>
+		<input type="checkbox" id="student5" name="student5" value="Student">
+		<label for="student5" style="font-family: calibri;">Muhammad Mustafa</label><br>
+		<input type="checkbox" id="student6" name="student6" value="Student">
+		<label for="student6" style="font-family: calibri;">Fauha Hassan</label><br>
+		<input type="checkbox" id="student7" name="student7" value="Student">
+		<label for="student7" style="font-family: calibri;">Tubba</label><br>
+		<input type="checkbox" id="student8" name="student8" value="Student">
+		<label for="student8" style="font-family: calibri;">Nazam Waheed</label><br>
+
+		<input type="submit" value="submit">
+		</div>
+	</form>
+
+	<script src="../JS-Files/form-val.js"></script>
+</body>
+</html>

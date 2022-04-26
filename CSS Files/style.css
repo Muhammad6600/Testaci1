@@ -1,0 +1,44 @@
+body{
+    background-color: yellow;
+}
+.h3{
+    color: brown;
+}
+.h3:hover{
+    color: peru;
+}
+.link1:link{
+    color: lightsalmon;
+}
+.link2:visited{
+    color: red;
+}
+.link3:active{
+    color: blue;
+}
+.cursor{
+    cursor: help;
+}
+.List-Style{
+    /* list-style-type: lower-alpha; */
+    list-style-image: url(background\ desktop.jpg);
+}
+.pse-ele::first-line{
+    color: blueviolet;
+}
+.pse-ele::first-letter{
+    color: black;
+    font-size: xx-large;
+}
+.pse-ele::before{
+    content: '#';
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.pse-ele::after{
+    content: '#';
+    display: block;
+    width: 20px;
+    height: 20px;
+}

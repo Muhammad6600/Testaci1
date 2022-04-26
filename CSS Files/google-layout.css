@@ -1,0 +1,98 @@
+ body{
+     /* background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(background.png);
+     background-repeat: no-repeat;
+     background-size: cover; */
+     /* background-color: wheat; */
+ }
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: darkslategray;
+}
+nav{
+    text-align: right;
+    font-size: 18px;
+    margin-right: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Google-Logo{
+    text-align: center;
+    font-family: Product Sans;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-left: 0;
+    color: black;
+}
+.G{
+    color: #4285F4;
+}
+.o{
+    color: #EA4335;
+}
+.o-2{
+    color: #FBBC05;
+}
+.g-2{
+    color: #4285F4;
+}
+.l{
+    color: #34A853;
+}
+.e{
+    color: #EA4335;
+}
+.searchbar{
+    margin-top:25px;
+   margin-left: 638px;
+}
+.bar{
+    border-radius:100px;
+    -webkit-box-shadow: 2px 3px 0px -2px #ccc;
+    padding:10px;
+    border:0px;
+    outline: none;
+    border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
+}
+.bar:hover{
+    -webkit-box-shadow: 0px 0px 16px 0px rgb(180, 180, 180);
+}
+.buttons{
+    display: inline;
+}
+.button1{
+    padding-left: 690px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* gap: 5px; */
+    padding-top: 20px;
+}
+.b1{
+    background-color: rgb(236, 236, 236);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    gap: 5px;
+    border: none;
+}
+.button2{
+    padding-left: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* gap: 5px; */
+    /* padding-top: 20px; */
+    margin-top: -25px;
+}
+.b2{
+    background-color: rgb(236, 236, 236);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+
+    gap: 5px;
+    border: none;
+}

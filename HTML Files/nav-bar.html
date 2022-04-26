@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E:\Programming Course AzadChaiwala\Icons For Websites\font-awesome-4.7.0\css/font-awesome.min.css">
+    <link rel="stylesheet" href="E:\Programming Course AzadChaiwala\Assignment\CSS Files\nav-bar.css">
+    <title>Navbar</title>
+</head>
+<style>
+</style>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <a href="#" class="">Home</a>
+        <a href="#" class="">Home</a>
+        <a href="#" class="">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Dropdown
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+            </div>
+        </div>
+        <a href="#">Link</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunc()"><i class="fa fa-bars"></i></a>
+    </nav>
+
+    </div>
+    <script>
+        function myFunc() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,427 @@
+/* body{
+    background-color: beige;
+} */
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    color: #64CA87;
+}
+nav{
+    text-align: right;
+    font-size: 25px;
+    margin-right: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 985px;
+    padding-bottom: 0;
+    padding-right: 0;
+    font-size: 36px;
+    color: #64CA87;
+    font-family: Kanji_PA Regular;
+}
+.image{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../Images/Using.jpeg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+}
+.head-box{
+    position: absolute;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 55px;
+    padding-left: 55px;
+    color: whitesmoke;
+}
+.image-text{ 
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 232px;
+    padding-bottom: 61px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    
+}
+@media screen and (max-width: 600px) {
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 15px;
+        color: #64CA87;
+    }
+    nav{
+        text-align: center;
+        font-size: 25px;
+        margin-right: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .logo{
+        text-align: center;
+        margin-bottom: 0;
+        margin-left: 120px;
+        padding-bottom: 0;
+        padding-right: 0;
+        font-size: 50px;
+        color: #64CA87;
+        font-family: Kanji_PA Regular;
+    }
+    .image{
+        background-image: url(../Images/Using.jpeg);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+    }
+    .head-box{
+        position: absolute;
+        text-align: center;
+        padding-top: 40px;
+        font-size: 55px;
+        padding-left: 55px;
+        color: whitesmoke;
+    }
+    .image-text{ 
+        color: white;
+        background: rgba(0, 0, 0, 0.3);
+        width: 400px;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 232px;
+        padding-bottom: 61px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        
+    }
+    /* .text-box{
+        padding-bottom: 0;
+    } */
+    .card{
+        width: 400px;
+        height: 330px;
+        display: inline;
+        /* border-radius: 15px; */
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px -5px;
+        background-position: center;
+        background-size: cover;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 90px;
+        transition: 0.5s;
+        animation: animate 10s linear infinite;
+    }
+}
+    .card{
+        width: 400px;
+        height: 330px;
+        display: inline;
+        /* border-radius: 15px; */
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px -5px;
+        background-position: center;
+        background-size: cover;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 90px;
+        transition: 0.5s;
+        animation: animate 1s linear infinite;
+    }
+    .card:hover{
+        transform: translateY(-15px);
+    }
+    @keyframes animate{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    h5{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .card-text{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    .card-text-button{
+        text-align: center;
+        color: #64CA87;
+        text-decoration: underline;
+        /* font-style: italic; */
+        font-size: 39px;
+        margin-top: -7px;
+    }
+    .card1{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+        background-size: cover;
+    }
+    .card2{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+        background-size: cover;
+    }
+    .card3{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+        background-size: cover;
+    }
+    .card4{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+        background-size: cover;
+    }
+    .card5{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+        background-size: cover;
+    }
+    .card6{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+        background-size: cover;
+    }
+    .text-only{
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    .phone-address-form{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h2{
+        text-align: left;
+        margin: 0;
+        padding-left: 0px;
+        font-size: 30px;
+        
+    }
+    .numb-addr{
+        text-align: left;
+        padding-left: 5px;
+        font-size: 22px;
+    }
+    .form{
+        text-align: right;
+        padding-top: 0px;
+        margin-top: -206px;
+        padding-right: 0px;
+        overflow: hidden;
+        border: none;
+    }
+    .input1{
+        margin-bottom: 10px;
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .input2{
+        margin-bottom: 10px;
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .input3{
+        margin-bottom: 10px;
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .Submit-Button{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        background-color: #64CA87;
+        color: white;
+        border: none;
+    }
+    .submit{
+        padding-left: 425px;
+        margin-left: -80px;
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        margin-top: 45px;
+        
+        background-color: #C4C4C4;
+    }
+    .footer-text{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 5px;
+    }
+/* .image-text{
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 232px;
+    padding-bottom: 61px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    
+}
+/* .text-box{
+    padding-bottom: 0;
+} */
+.card{
+    width: 400px;
+    height: 330px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 113px;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 90px;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.card-text{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.card-text-button{
+    text-align: center;
+    color: #64CA87;
+    text-decoration: underline;
+    font-size: 39px;
+    margin-top: -7px;
+}
+.card1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+    background-size: cover;
+}
+.card2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+    background-size: cover;
+}
+.card3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+    background-size: cover;
+}
+.card4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+    background-size: cover;
+}
+.card5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+    background-size: cover;
+}
+.card6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../Images/Using.jpeg);
+    background-size: cover;
+}
+.text-only{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.phone-address-form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    text-align: left;
+    margin: 0;
+    padding-left: 114px;
+    font-size: 30px;
+    
+}
+.numb-addr{
+    text-align: left;
+    padding-left: 117px;
+    font-size: 22px;
+}
+.form{
+    text-align: right;
+    padding-top: 0px;
+    margin-top: -206px;
+    padding-right: 10px;
+    overflow: hidden;
+    border: none;
+}
+.input1{
+    margin-bottom: 10px;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.input2{
+    margin-bottom: 10px;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.input3{
+    margin-bottom: 10px;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.Submit-Button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #64CA87;
+    color: white;
+    border: none;
+}
+.submit{
+    padding-left: 1050px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 45px;
+    
+    background-color: #C4C4C4;
+}
+.footer-text{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+}
